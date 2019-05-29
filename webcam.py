@@ -19,7 +19,7 @@ def webcam(style_transform_path, width=1280, height=720):
     # Load Transformer Network
     print("Loading Transformer Network")
     net = transformer.TransformerNetwork()
-    net.load_state_dict(torch.load(style_transform_path))
+    net.load_state_dict(torch.load(style_transform_path,map_location=device))
     net = net.to(device)
     print("Done Loading Transformer Network")
 
