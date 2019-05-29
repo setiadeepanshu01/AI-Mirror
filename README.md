@@ -22,3 +22,5 @@ python webcamp.py 6
 
 python webcamp.py 7
 
+# Press "Esc" key to exit from any demo
+
