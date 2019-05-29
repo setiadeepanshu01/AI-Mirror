@@ -4,8 +4,10 @@ import cv2
 import transformer
 import torch
 import utils
+import sys
 
-STYLE_TRANSFORM_PATH = "trained_models/4.pth"
+#STYLE_TRANSFORM_PATH = "trained_models/4.pth"
+STYLE_TRANSFORM_PATH = "trained_models/"+str(sys.argv[1])+".pth"
 PRESERVE_COLOR = False
 WIDTH = 1280
 HEIGHT = 720
