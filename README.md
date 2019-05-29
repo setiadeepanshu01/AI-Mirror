@@ -2,7 +2,9 @@
 
 # Dependecies
 PyTorch
+
 opencv2
+
 NumPy
 
 # Run
